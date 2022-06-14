@@ -1,0 +1,45 @@
+/*
+#panel{
+	border-radius: 7px;
+	margin-top: 0px;
+	margin-bottom: 3px;
+	margin-left: 50px;
+	margin-right: 50px;
+	height: 40px;
+	font-size: 15px;
+}
+*/
+#panel #panelActivities.panel-button {
+  -natural-hpadding: 12px; }
+#panel .panel-button#panelActivities {
+  background-image: url("assets/activities.svg");
+  background-position: center top;
+  background-size: auto; 
+  color: transparent;
+  background-color: transparent;
+  box-shadow: none;
+}
+#panel .panel-button#panelActivities > * {
+  width: 24px;
+}
+
+
+Gjs_ui_panel_AggregateMenu.panel-button{
+	color: #000000;
+	/*background-color: rgba(232,191,24,1);*/
+	background-color: rgba(221,153,153,1);
+	border-color: black;
+	border: 5px;
+	border-radius: 7px
+}
+
+
+VitalsMenuButton.panel-button{
+	color: #000000;
+	/*background-color: rgba(232,191,24,1);*/
+	background-color: rgba(171,212,250,1);
+	border-color: black;
+	border: 5px;
+	border-radius: 7px
+}
+
