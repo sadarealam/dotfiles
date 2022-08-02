@@ -16,9 +16,11 @@ env:
   WINIT_X11_SCALE_FACTOR: '1.0'
 
 shell:
-  program: tmux
+  program: /opt/homebrew/bin/fish
   args:
-    - -u
+    - --login
+    - -c 
+    - /opt/homebrew/bin/tmux
 ## Terminal window settings
 window:
   dimensions:
