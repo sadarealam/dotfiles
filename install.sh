@@ -1,4 +1,4 @@
-history | grep 'brew install'
+brew install ninja libtool automake cmake pkg-config gettext curl
 brew install openjdk@17
 brew install starship
 brew install peco
