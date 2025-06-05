@@ -41,7 +41,8 @@ source $DOTFILES/aliases/aliases
 if [[ -z "$PROFILE_SOURCED" ]]; then
     source $ZDOTDIR/.zprofile
 fi
-#source /opt/homebrew/share/zsh-autocomplete/zsh-autocomplete.plugin.zsh
+
+source $ZDOTDIR/completion.zsh
 #eval "$(zellij setup --generate-auto-start zsh)"
 eval "$(starship init zsh)"
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
