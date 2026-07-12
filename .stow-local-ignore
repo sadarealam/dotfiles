@@ -1,0 +1,6 @@
+\.DS_Store
+aliases
+.git
+.gitignore
+fonts
+install.sh
