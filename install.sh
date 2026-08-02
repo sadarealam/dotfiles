@@ -16,6 +16,7 @@ brew install zsh-syntax-highlighting && \
 brew install eza && \
 brew install z && \
 brew install zoxide && \
+brew install openvpn && \
 brew install dmno-dev/tap/varlock && \
 brew install stats && \
 brew install bruno && \
