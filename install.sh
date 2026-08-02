@@ -21,6 +21,7 @@ brew install stats && \
 brew install bruno && \
 brew install --cask orbstack && \
 brew install --cask arc && \
+brew install --cask slack && \
 brew install --cask logi-options+ && \
 xattr -rd com.apple.quarantine /Applications/Alacritty.app && \
 curl  -s "https://get.sdkman.io" | zsh
