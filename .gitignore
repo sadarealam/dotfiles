@@ -7,7 +7,6 @@
 # zed config
 !.config/zed/
 .config/zed/*
-!.config/zed/settings.json
 
 
 !.config/zellij
