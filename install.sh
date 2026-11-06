@@ -71,6 +71,9 @@ CASKS=(
   arc
   slack
   logi-options+
+  mongodb-compass
+  zen
+  keepingyouawake
 )
 
 install_formula "${FORMULAE[@]}"
@@ -79,3 +82,8 @@ install_cask "${CASKS[@]}"
 xattr -rd com.apple.quarantine /Applications/Alacritty.app
 
 curl -s "https://get.sdkman.io" | zsh
+
+# add dns entry for prod bastion ip
+echo "65.2.119.240 prod_bastion" | sudo tee -a /etc/hosts
+
+softwareupdate --install-rosetta --agree-to-license
